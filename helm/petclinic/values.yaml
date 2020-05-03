@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: prawinkorvi/petclinicimage
-  tag: latest
+  repository: saivikas408/kubernetes
+  tag: 16
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
