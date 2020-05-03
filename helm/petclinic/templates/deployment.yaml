@@ -6,13 +6,6 @@ metadata:
   name: petclinic-deployment
 spec:
   replicas: 1
-  strategy:
-    type: RollingUpdate
-    rollingUpdate:
-    maxSurge: 0
-    maxUnavailable: 1
-  minReadySeconds: 5
-  revisionHistoryLimit: 10
   selector:
     matchLabels:
       app: petclinic-app
