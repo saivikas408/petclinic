@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: saivikas408/kubernetes
-  tag: 16
+  repository: 054314165733.dkr.ecr.us-east-2.amazonaws.com/javaci
+  tag: 40
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
